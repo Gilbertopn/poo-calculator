@@ -7,6 +7,12 @@ import java.util.Scanner;
 
 public class UtilCalculator {
 
+    User user = new User();
+
+    public void crazyCalculator(){
+        form(user);
+    }
+
     private final CalculatorService calculatorService = new CalculatorService();
 
     private final Scanner sc = new Scanner(System.in);

@@ -6,7 +6,6 @@ public class CalculatorService {
 
     private Scanner sc = new Scanner(System.in);
 
-
     public Double sum() {
         System.out.println("Enter the first number: ");
         double numberOne = sc.nextDouble();
